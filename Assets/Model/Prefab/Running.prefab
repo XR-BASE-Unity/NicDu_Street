@@ -287,9 +287,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1896386547201586682}
   - component: {fileID: 4764125303453621953}
+  - component: {fileID: 7266917531600076908}
   m_Layer: 0
   m_Name: Running
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -329,6 +330,19 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!65 &7266917531600076908
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1232439461073645376}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.8007132, y: 1.9642813, z: 1.5016481}
+  m_Center: {x: 0.0090584755, y: 0.9622413, z: 0.05841106}
 --- !u!1 &1389095152344161970
 GameObject:
   m_ObjectHideFlags: 0

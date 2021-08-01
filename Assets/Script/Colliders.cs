@@ -34,7 +34,7 @@ public class Colliders : MonoBehaviour
 		if (other.gameObject.CompareTag("Wall"))
 		{
 			Debug.Log("It's WALL!");
-			rb.AddForce(new Vector3(0f, 100f, 0f));
+			rb.AddForce(new Vector3(0f, 200f, 0f));
 		}
 	}
 	
